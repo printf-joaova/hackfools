@@ -1,5 +1,9 @@
 $card-transition-time: 0.5s;
 
+body {
+  background-image: url(https://i.pinimg.com/originals/90/86/29/908629db5279219c2065a9060bace2c3.jpg);
+  background-size: 10%;
+}
 
 .card {
    perspective: 600px;
