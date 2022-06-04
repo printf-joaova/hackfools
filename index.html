@@ -1,66 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script type="text/javascript" src="anima.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>"Tarot de Pizza"</title>
-  </head>
-  <body>
-    <div clas="container">
-    <div class="card js-card">
-      <div class="card__wrapper">
-        <div class="card__side is-active">
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-        </div>
-        <div class="card__side card__side--back">
-          <h1>FRONT</h1>
-          <h1>FRONT</h1>
-          <h1>FRONT</h1>
-        </div>     
-      </div>
-    </div>   
-    <div class="card js-card">
-      <div class="card__wrapper">
-        <div class="card__side is-active">
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-        </div>
-        <div class="card__side card__side--back">
-          <h1>FRONT</h1>
-          <h1>FRONT</h1>
-          <h1>FRONT</h1>
-        </div>     
-      </div>
-    </div>
+<head>
+	<title>Pizza Tarot</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <div class="card js-card">
-      <div class="card__wrapper">
-        <div class="card__side is-active">
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-          <h2>BACK</h2>
-        </div>
-        <div class="card__side card__side--back">
-          <h1>FRONT</h1>
-          <h1>FRONT</h1>
-          <h1>FRONT</h1>
-        </div>     
-      </div>
-    </div>
-    </div>   
+</head>
+<body>
+	<audio controls autoplay>
+  	<source src="AUD-20220604-WA0018.mp3" type="audio/mpeg">
+	</audio>
+	<div id="titulo">Pizza Tarot</div>
+	<div class="card-container">
+	  <div class="card">
+	    <figure class="front">
+	      <figcaption>
+		<img
+	src="/cartas/pizzahut.jpg"/>   
+	      </figcaption>
+	    </figure>
+	    <figure class="back tooltip">
+	      <figcaption>
+		<img src="/cartas/morte.png"/>
+	      </figcaption>
+	      <div class="descricao"><span>O significado da carta do tarot da Morte simboliza a transformação da massa em pizza, abrindo caminho para uma nova fatia. É sobre terminar de comer uma pizza em sua vida, deixando pizzas passadas para trás e descartando pizzas indesejáveis em sua vida. É fundamental ver a pizza neste momento de refeição. Se você lutar contra isso, você vai sofrer. Ainda assim, se você visualizar a nova pizza, permitirá que surjam sabores de pizza mais construtivos.</span></div>
+	    </figure>
+	  </div>
+	  
+	  <div class="card">
+	    <figure class="front">
+	      <figcaption>
+		<img src="/card/pizzahut.jpg"/>
+	      </figcaption>
+	    </figure>
+	    <figure class="back tooltip">
+	      <figcaption>
+		<img             src="/cartas/a_temprenca.png"/>
+	      </figcaption>
+	      <div class="descricao"><span>Quando a carta do tarot da Temperança aparece em uma leitura, ela simboliza moderação (pedir 1 pizza média ao invés da tamanho família), paciência (esperar 50 minutos no restaurante lotado até assarem a sua pizza), harmonia (não exagerar no ketchup e na mostarda) e confiança positiva (de que a conta não vai dar muito caro). Isso sugere que agora é a hora de observar pacientemente todas as pizzas e seguir o caminho da pizza. O julgamento rápido e a resposta com emoção não farão nenhum bem na hora de pedir e desgustar a pizza.</span></div>
+	    </figure>
+	  </div>
 
-  </body>
+	  <div class="card">
+	    <figure class="front">
+	      <figcaption>
+		<img src="/cartas/pizzahut.jpg"/>
+	      </figcaption>
+	    </figure>
+	    <figure class="back tooltip">
+	      <figcaption>
+		<img             src="/cartas/o_carro.png"/>
+	      </figcaption>
+	      <div class="descricao"><span>A carta O Carro é sobre vencer as incertezas (saber se pede ou não pizza pra jantar) e alcançar sua pizza por meio de determinação, foco e força de vontade. Portanto, quando ele aparecer na leitura de tarot, considere isso um sinal de encorajamento para pedir aquela pizza calabresa com uma Coca geladinha. Essa carta revela que você está no controle dos seus deliveries de pizza e pode ter sucesso na hora de escolher uma pizzaria no iFood.</span></div>
+	    </figure>
+	  </div>
+	  
+	</div>
+</body>
+<script type="text/javascript" src="anima.js"></script>
 </html>
